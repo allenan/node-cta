@@ -1,39 +1,39 @@
 {
-  "name": "node-template",
-  "version": "0.1.13",
-  "author": "Winton Welsh <mail@wintoni.us>",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/winton/node-template.git"
-  },
-  "dependencies": {
-    "q": "",
-    "underscore": ""
-  },
-  "devDependencies": {
-    "blanket": "",
-    "chai": "",
-    "coffee-script": "",
-    "glob": "",
-    "grunt": "",
-    "grunt-contrib-coffee": "",
-    "grunt-contrib-watch": "",
-    "grunt-merge": "",
-    "grunt-mocha-test": "",
-    "grunt-release": "",
-    "grunt-rename": "",
-    "grunt-text-replace": "",
-    "mocha": "",
-    "prompt": "",
-    "source-map-support": "",
-    "sinon": ""
-  },
-  "bin": {
-    "node-template": "./bin/node-template"
-  },
-  "license": "MIT",
-  "main": "./lib/node-template.js",
-  "scripts": {
-    "test": "mocha test/test.js --reporter spec"
-  }
+    "name": "cta",
+    "version": "0.1.0",
+    "author": "andrew",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/andrewallen2012/node-cta.git"
+    },
+    "dependencies": {
+        "q": "",
+        "underscore": ""
+    },
+    "devDependencies": {
+        "blanket": "",
+        "chai": "",
+        "coffee-script": "",
+        "glob": "",
+        "grunt": "",
+        "grunt-contrib-coffee": "",
+        "grunt-contrib-watch": "",
+        "grunt-merge": "",
+        "grunt-mocha-test": "",
+        "grunt-release": "",
+        "grunt-rename": "",
+        "grunt-text-replace": "",
+        "mocha": "",
+        "prompt": "",
+        "source-map-support": "",
+        "sinon": ""
+    },
+    "bin": {
+        "cta": "./bin/cta"
+    },
+    "license": "MIT",
+    "main": "./lib/cta.js",
+    "scripts": {
+        "test": "mocha test/test.js --reporter spec"
+    }
 }

@@ -5,19 +5,19 @@ module.exports = (grunt) ->
 
   grunt.config.data.rename =
     bin_path:
-      src : "bin/node-template"
+      src : "bin/cta"
       dest: "bin/<%= pkg.name %>"
     src_directory:
-      src : "src/node-template"
+      src : "src/cta"
       dest: "src/<%= pkg.name %>"
     src_path:
-      src : "src/node-template.coffee"
+      src : "src/cta.coffee"
       dest: "src/<%= pkg.name %>.coffee"
     test_directory:
-      src : "test/node-template"
+      src : "test/cta"
       dest: "test/<%= pkg.name %>"
     test_path:
-      src : "test/node-template.coffee"
+      src : "test/cta.coffee"
       dest: "test/<%= pkg.name %>.coffee"
 
   grunt.loadNpmTasks "grunt-rename"

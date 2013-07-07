@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+(function() {
+  var Cta;
+
+  Cta = require("../lib/cta");
+
+  new Cta;
+
+}).call(this);
