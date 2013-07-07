@@ -1,7 +1,7 @@
 {
     "name": "cta",
     "version": "0.1.0",
-    "author": "andrew",
+    "author": "Andrew Allen",
     "repository": {
         "type": "git",
         "url": "https://github.com/andrewallen2012/node-cta.git"
